@@ -1,2 +1,65 @@
 @media screen and (max-width: 479px) {
+    .header {
+        width: 200px;
+        height: 200px;
+        }
+
+        .container {
+            width: 60px;
+            position: relative;
+            left: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 140px;
+            padding-bottom: 20px;
+        }
+
+        .box2{
+            left: 10px;
+        }
+
+        .box3{
+            left: 10px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .left {
+            width: 200px;
+            height: 100px;
+        }
+
+        .right {
+            width: 200px;
+            left: 30px;
+            height: auto;
+            padding-bottom: 40px;
+        }
+
+        .container2 {
+            top: 20px;
+            bottom: 20px;
+            left: 30px;
+        }
+
+        .box4 {
+            width: 130px;
+        }
+
+        .box5 {
+            width: 130px;
+        }
+
+        .box6 {
+            width: 130px;
+        }
+
+        .footer {
+            width: 200px;
+            height: 100px;
+        }
 }
